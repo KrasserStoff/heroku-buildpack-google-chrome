@@ -148,3 +148,5 @@ cp $SHIM $BIN_DIR/google-chrome
 cat <<EOF >$BUILD_DIR/.profile.d/010_google-chrome.sh
 export GOOGLE_CHROME_BIN=$BIN
 EOF
+
+apt-get clean
